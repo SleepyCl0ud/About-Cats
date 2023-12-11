@@ -1,0 +1,86 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: hsl(180, 29%, 90%);
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Barlow', sans-serif;
+}
+
+.button {
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    background-color: hsl(180, 25%, 53%);
+    border: solid hsl(180, 25%, 53%) 5px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+
+}
+
+.button:hover {
+    background-color: hsl(180, 59%, 76%);
+    border: solid hsl(180, 59%, 76%) 5px;
+}
+
+.main {
+    padding: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+
+.content-page {
+    background-color: hsla(180, 23%, 26%, 0.205);
+}
+
+.dark {
+    color: white;
+    background: hsl(180, 22%, 10%);
+}
+
+.picture {
+
+    max-inline-size: 100%;
+    block-size: auto;
+    border: 10px white;
+    border-radius: 50px;
+    box-shadow: 0px 10px 20px 4px rgba(34, 28, 89, 0.10);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.footer {
+    font-family: 'Barlow', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+.caption {
+    text-align: center;
+    caption-side: top;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.link {
+    color: hsl(180, 100%, 27%);
+
+}
+
+.link:visited {
+    color: hsl(288, 65%, 35%);
+}

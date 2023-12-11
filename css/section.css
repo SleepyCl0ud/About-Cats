@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.section__list {
+    margin-left: 7px;
+}
+
+.section__list--bold {
+   font-weight: bold;
+}

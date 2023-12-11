@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.navigation__table {
+    background-color: hsl(180, 25%, 53%);
+    border: 10px solid hsl(180, 25%, 53%);
+    border-radius: 30px;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.navigation__cell {
+    padding: 0 10px;
+
+}
+
+.navigation__link:hover {
+    border-bottom: solid 2px;
+    border-color: hsl(180, 89%, 15%);
+}
+
+.navigation__link {
+    color: black;
+    text-decoration: none;
+}

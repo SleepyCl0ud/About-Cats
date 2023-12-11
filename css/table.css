@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.table__cell--header {
+    background-color: hsl(180, 100%, 97%);
+    border: solid 2px;
+    border-color: hsl(180, 20%, 40%);
+    padding: 10px;
+}
+
+.table__cell--headerDark {
+    color: black;
+}
+
+.table__cell:hover {
+    background-color: hsl(180, 44%, 41%);
+}
+
+.table__cell--header:hover {
+    background-color: hsl(180, 63%, 77%);
+}
+
+.table__cell {
+    border: 2px solid;
+    border-color: hsl(180, 20%, 40%);
+    padding: 10px;
+    text-align: center;
+
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
