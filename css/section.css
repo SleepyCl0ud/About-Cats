@@ -1,17 +1,17 @@
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 ::after,
 ::before {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .section__list {
-    margin-left: 7px;
+  margin-left: 7px;
 }
 
 .section__list--bold {
-   font-weight: bold;
+  font-weight: bold;
 }

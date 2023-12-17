@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.headerF {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.header__title {
+  max-width: fit-content;
+  margin: auto;
+  padding: 30px;
+  font-size: 60px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
