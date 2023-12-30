@@ -1,14 +1,19 @@
-let button = document.querySelector(".button");
-let body = document.querySelector(".body");
-let themeName = document.querySelector(".themeName");
-let tableHeader = document.querySelector(".tableHeader");
+{
+  const toggleBackground = () => {
+    const body = document.querySelector(".body");
+    const themeName = document.querySelector(".themeName");
+    const tableHeader = document.querySelector(".table__cell--header");
 
-button.addEventListener("click", () => {
-  body.classList.toggle("dark");
-});
+    themeName.innerText = body.classList.contains("dark") ? "Ciemny" : "Jasny";
+    body.classList.toggle("dark");
+    tableHeader.classList.toggle("table__cell--dark");
+  };
 
-button.addEventListener("click", () => {
-  tableHeader.classList.toggle("tableHeaderDark");
+  const init = () => {
+    const changeBackgroundButton = document.querySelector(".button");
 
-  themeName.innerText = body.classList.contains("dark") ? "Jasny" : "Ciemny";
-});
+    changeBackgroundButton.addEventListener("click", toggleBackground);
+  };
+
+  init();
+}

@@ -15,6 +15,11 @@ html {
   font-family: "Barlow", sans-serif;
 }
 
+.dark {
+  color: white;
+  background: hsl(180, 22%, 10%);
+}
+
 .button {
   font-family: "Barlow", sans-serif;
   font-weight: bold;
@@ -37,11 +42,6 @@ html {
 
 .content-page {
   background-color: hsla(180, 23%, 26%, 0.205);
-}
-
-.dark {
-  color: white;
-  background: hsl(180, 22%, 10%);
 }
 
 .picture {
