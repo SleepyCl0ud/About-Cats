@@ -8,11 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-.headerF {
-  font-size: 35px;
-  font-weight: 600;
-}
-
 .header__title {
   max-width: fit-content;
   margin: auto;
